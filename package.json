@@ -1,0 +1,28 @@
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "cumt",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "cumt",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^22.3.27",
+    "electron-builder": "^24.6.4"
+  },
+  "dependencies": {},
+  "build": {
+    "productName": "dzs",
+    "appId": "com.dzs",
+    "copyright": "cumt",
+    "directories": {
+      "output": "build"
+    },
+    "win": {
+      "icon": "./book.icon"
+    }
+  }
+}
