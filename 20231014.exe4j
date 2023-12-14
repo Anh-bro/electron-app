@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<exe4j version="9.0" transformSequenceNumber="3">
+  <directoryPresets config="C:/Users/mingc/IdeaProjects/dzs_demo/target" />
+  <application name="spring" distributionSourceDir="D:/UserFolder/Desktop/outexe" />
+  <executable name="spring" wrapperType="embed" executableDir="." executableMode="gui" />
+  <java mainClass="org.springframework.boot.loader.JarLauncher" vmParameters="-Dfile.encoding=utf-8" minVersion="1.8" maxVersion="17">
+    <searchSequence>
+      <directory location="./jre" />
+    </searchSequence>
+    <classPath>
+      <archive location="C:/Users/mingc/IdeaProjects/dzs_demo/target/dzs_demo-0.0.1-SNAPSHOT.jar" failOnError="false" />
+    </classPath>
+  </java>
+</exe4j>
